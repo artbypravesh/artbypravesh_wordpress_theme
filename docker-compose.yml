@@ -7,6 +7,7 @@ services:
     container_name: wp
     volumes:
       - ./wp-content:/var/www/html/wp-content/
+      - ./src:/var/www/html/wp-content/themes/src
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_PASSWORD: password
