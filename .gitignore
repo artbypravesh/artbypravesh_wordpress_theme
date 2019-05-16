@@ -1,0 +1,14 @@
+.DS_Store
+wp-content
+/node_modules
+*.log
+/sitemap.xml
+/sitemap.xml.gz
+*.sass-cache*
+assets/stylesheets/
+assets/scripts/
+assets/maps
+assets/components/
+assets/vendor/
+packaged/
+wpcs/
