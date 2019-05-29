@@ -120,7 +120,7 @@ add_action( 'widgets_init', 'abp_widgets_init' );
  * Enqueue scripts and styles.
  */
 function abp_scripts() {
-	wp_enqueue_style( 'abp-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'abp-style', "/wp-content/themes/src/assets/styles/style.css" );
 
 	wp_enqueue_script( 'abp-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

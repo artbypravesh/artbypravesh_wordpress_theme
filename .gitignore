@@ -5,10 +5,8 @@ wp-content
 /sitemap.xml
 /sitemap.xml.gz
 *.sass-cache*
-assets/stylesheets/
-assets/scripts/
-assets/maps
 assets/components/
 assets/vendor/
 packaged/
 wpcs/
+/src/assets
